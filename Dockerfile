@@ -10,6 +10,5 @@ WORKDIR /dockerpuller
 
 VOLUME ["/var/run/docker.sock"]
 
-#ENTRYPOINT ["python", "app.py"]
-CMD ash
+ENTRYPOINT ["python", "app.py"]
 
